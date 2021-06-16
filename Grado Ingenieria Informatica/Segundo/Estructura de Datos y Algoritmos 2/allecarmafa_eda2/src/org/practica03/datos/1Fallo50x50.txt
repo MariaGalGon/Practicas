@@ -1,0 +1,5 @@
+@Tamano: 50 x 50
+@Numero edificios: 1
+
+@Direccion;BC;IP;OP
+A33C11;72;10;30608

@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaTest\\TresEnRayaTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaConsola\\TresEnRayaConsola.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaConsola\\TresEnRayaConsola.csproj",
+        "projectName": "TresEnRayaConsola",
+        "projectPath": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaConsola\\TresEnRayaConsola.csproj",
+        "packagesPath": "C:\\Users\\marga\\.nuget\\packages\\",
+        "outputPath": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaConsola\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRaya\\TresEnRaya.csproj": {
+                "projectPath": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRaya\\TresEnRaya.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaTest\\TresEnRayaTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaTest\\TresEnRayaTest.csproj",
+        "projectName": "TresEnRayaTest",
+        "projectPath": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaTest\\TresEnRayaTest.csproj",
+        "packagesPath": "C:\\Users\\marga\\.nuget\\packages\\",
+        "outputPath": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaConsola\\TresEnRayaConsola.csproj": {
+                "projectPath": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRayaConsola\\TresEnRayaConsola.csproj"
+              },
+              "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRaya\\TresEnRaya.csproj": {
+                "projectPath": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRaya\\TresEnRaya.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRaya\\TresEnRaya.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRaya\\TresEnRaya.csproj",
+        "projectName": "TresEnRaya",
+        "projectPath": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRaya\\TresEnRaya.csproj",
+        "packagesPath": "C:\\Users\\marga\\.nuget\\packages\\",
+        "outputPath": "C:\\Azure\\2019-PSS\\Practicas\\Practica_03\\TresEnRaya\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Collections.NonGeneric": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

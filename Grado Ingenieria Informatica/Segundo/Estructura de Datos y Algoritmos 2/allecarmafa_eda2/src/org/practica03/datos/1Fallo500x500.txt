@@ -1,0 +1,5 @@
+@Tamano: 500 x 500
+@Numero edificios: 1
+
+@Direccion;BC;IP;OP
+A121C447;65;25;13399

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TresEnRaya", "TresEnRaya\TresEnRaya.csproj", "{4037CFD7-C583-4823-B1EF-FFCDC50C4C99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TresEnRayaTest", "TresEnRayaTest\TresEnRayaTest.csproj", "{A38BBBF5-AFAB-4069-95C2-311E9CF95A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TresEnRayaConsola", "TresEnRayaConsola\TresEnRayaConsola.csproj", "{C0E61E42-B16A-40E7-B98A-54BAF67EAB8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4037CFD7-C583-4823-B1EF-FFCDC50C4C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4037CFD7-C583-4823-B1EF-FFCDC50C4C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4037CFD7-C583-4823-B1EF-FFCDC50C4C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4037CFD7-C583-4823-B1EF-FFCDC50C4C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38BBBF5-AFAB-4069-95C2-311E9CF95A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38BBBF5-AFAB-4069-95C2-311E9CF95A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38BBBF5-AFAB-4069-95C2-311E9CF95A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38BBBF5-AFAB-4069-95C2-311E9CF95A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E61E42-B16A-40E7-B98A-54BAF67EAB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E61E42-B16A-40E7-B98A-54BAF67EAB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E61E42-B16A-40E7-B98A-54BAF67EAB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E61E42-B16A-40E7-B98A-54BAF67EAB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB38785B-C701-4A1B-AC9E-BB866D4184BC}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/2019-pss-mgg694
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TresEnRaya\\TresEnRaya.csproj
+		SccProjectName1 = TresEnRaya
+		SccLocalPath1 = TresEnRaya
+		SccProjectUniqueName2 = TresEnRayaTest\\TresEnRayaTest.csproj
+		SccProjectName2 = TresEnRayaTest
+		SccLocalPath2 = TresEnRayaTest
+		SccProjectUniqueName3 = TresEnRayaConsola\\TresEnRayaConsola.csproj
+		SccProjectName3 = TresEnRayaConsola
+		SccLocalPath3 = TresEnRayaConsola
+	EndGlobalSection
+EndGlobal

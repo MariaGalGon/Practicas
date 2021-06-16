@@ -1,0 +1,10 @@
+@Tamano: 10 x 10
+@Numero edificios: 6
+
+@Direccion;BC;IP;OP
+A1C5;50;11;5000
+A1C3;20;8;10000
+A3C4;30;9;7000
+A3C5;40;10;6000
+A5C4;30;9;6000
+A7C8;70;13;8000

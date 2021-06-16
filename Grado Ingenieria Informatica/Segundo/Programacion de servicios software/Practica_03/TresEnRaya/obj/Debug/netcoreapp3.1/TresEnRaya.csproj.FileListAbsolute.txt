@@ -1,0 +1,8 @@
+C:\Azure\2019-PSS\Practicas\Practica_03\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.csprojAssemblyReference.cache
+C:\Azure\2019-PSS\Practicas\Practica_03\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.AssemblyInfoInputs.cache
+C:\Azure\2019-PSS\Practicas\Practica_03\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.AssemblyInfo.cs
+C:\Azure\2019-PSS\Practicas\Practica_03\TresEnRaya\bin\Debug\netcoreapp3.1\TresEnRaya.deps.json
+C:\Azure\2019-PSS\Practicas\Practica_03\TresEnRaya\bin\Debug\netcoreapp3.1\TresEnRaya.dll
+C:\Azure\2019-PSS\Practicas\Practica_03\TresEnRaya\bin\Debug\netcoreapp3.1\TresEnRaya.pdb
+C:\Azure\2019-PSS\Practicas\Practica_03\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.dll
+C:\Azure\2019-PSS\Practicas\Practica_03\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.pdb
