@@ -25,6 +25,7 @@ public class BD_Pedido_Entregado {
 
 			pedido.setComprado_por(aPedido.getComprado_por());
 			pedido.setEncargado_compras(aPedido.getEncargado_compras());
+			pedido.setFechaEnvio(aPedido.getFechaEnvio());
 			pedido.setFechaRecepcion(aFechaRecepcion);
 			pedido.setRepartidor(aPedido.getRepartidor());
 			pedido.setPrecioTotal(aPedido.getPrecioTotal());
