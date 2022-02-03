@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G224" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ClasificacionAEntity" representedClassName="ClasificacionAEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="a3" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="a5" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="a6" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="a9" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="a11" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fecha" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="resultado" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="usuarioRelacion" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UsuarioEntity" inverseName="clasificacionRelacion" inverseEntity="UsuarioEntity"/>
+    </entity>
+    <entity name="UsuarioEntity" representedClassName="UsuarioEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="contrasenia" optional="YES" attributeType="String"/>
+        <attribute name="correo" optional="YES" attributeType="String"/>
+        <attribute name="esAdministrador" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <relationship name="clasificacionRelacion" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ClasificacionAEntity" inverseName="usuarioRelacion" inverseEntity="ClasificacionAEntity"/>
+    </entity>
+    <elements>
+        <element name="ClasificacionAEntity" positionX="151.4939575195312" positionY="255.2994995117188" width="128" height="163"/>
+        <element name="UsuarioEntity" positionX="149.40234375" positionY="23.86505126953125" width="128" height="133"/>
+    </elements>
+</model>
