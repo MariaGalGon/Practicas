@@ -1,6 +1,7 @@
 # Líneas de Productos Software
 
-El código de este proyecto está realizado con Swift.
+![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
 
 En esta práctica se desarrolló una aplicación móvil de clasificación de ondas (pueden ser buenas o malas). Usando los targets de Xcode se crearon dos tipos de aplicaciones:
 
