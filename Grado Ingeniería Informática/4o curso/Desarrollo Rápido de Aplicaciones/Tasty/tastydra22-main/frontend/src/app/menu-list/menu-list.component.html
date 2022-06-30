@@ -1,0 +1,22 @@
+<div class="access-alert" *ngIf="text==='Log in to access the menu'">
+<div  id="text" class="mat-card ">
+  Menu
+  <div>
+    {{ text }}
+  </div>
+</div>
+</div>
+
+<div class="menu-list" *ngIf="text!=='Log in to access the menu'">
+ <!--  <button mat-icon-button>
+  <mat-icon class="arrow-button">keyboard_arrow_left</mat-icon>
+</button> -->
+  <div *ngFor="let i of [0, 1, 2, 3, 4]">
+    <app-menu-card *ngIf="listOfRecipes.length>0" [index]="i" [listOfRecipes]="listOfRecipes" (refresh)="refresh()"></app-menu-card>
+  </div>
+  <!-- <button mat-icon-button>
+  <mat-icon class="arrow-button">keyboard_arrow_right</mat-icon>
+</button> -->
+</div>
+
+

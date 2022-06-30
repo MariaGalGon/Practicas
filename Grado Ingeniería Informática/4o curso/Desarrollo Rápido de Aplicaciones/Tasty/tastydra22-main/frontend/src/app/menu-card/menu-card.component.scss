@@ -1,0 +1,145 @@
+$green-accent: #788D17;
+$green-accent-hover: #4a5710;
+$green-soft: #CFE085;
+
+.mat-card{
+  min-width: 250px;
+  // width: 400px;
+  display: inline-block;
+  text-align: center;
+  background: white;
+  padding: 0px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+// Day of the week
+
+.menu-date-number{
+  vertical-align: middle;
+  font-size: large;
+  color: white;
+  font-weight: bolder;
+  background-color: $green-accent;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.menu-date-name{
+  font-weight: bolder;
+  margin-left: 8px;
+}
+
+.menu-date{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+
+  padding-top: 20px;
+  margin: 20px;
+  text-align: left;
+}
+
+// Content
+
+.menu-content{
+
+  vertical-align:middle;
+  padding-top: 10px;
+}
+
+
+.menu-item{
+  align-self: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-section-title{
+  vertical-align:middle;
+  font-weight: bold;
+  background-color: $green-soft;
+  padding: 8px 40px;
+  border-radius: 20px;
+}
+
+.menu-items-list{
+  justify-content: center;
+  max-width: 400px;
+  flex-wrap: wrap;
+
+  vertical-align:middle;
+  vertical-align: center;
+  display: flex;
+  margin: 20px 20px;
+}
+
+
+.menu-item-img{
+  object-fit: cover;
+  width:100px;
+  height:100px;
+  border-radius: 3000px;
+}
+
+.menu-item-overlay{
+  vertical-align: middle;
+  position: absolute;
+  background: rgba(67, 67, 67, 0.489);
+  object-fit: cover;
+  width:100px;
+  height:100px;
+  border-radius: 3000px;
+}
+
+.edit-item-icon{
+
+  color: white;
+}
+
+.test{
+  width:100px;
+  height:100px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.menu-item-title{
+  white-space: nowrap;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size: small;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+
+.menu-section{
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-add-button{
+  padding-left: 15px;
+  padding-bottom: 40px;
+  align-self: center;
+  width: auto;
+  height: auto;
+  color: rgb(176, 176, 176);
+  font-size: 40px;
+  cursor: pointer;
+}
