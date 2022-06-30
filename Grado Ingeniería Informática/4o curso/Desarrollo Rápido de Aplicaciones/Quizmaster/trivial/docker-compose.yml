@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  quizmaster:
+    build: .
+    ports:
+      - "1200:80"
