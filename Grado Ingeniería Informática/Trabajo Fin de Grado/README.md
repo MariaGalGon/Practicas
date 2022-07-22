@@ -9,4 +9,4 @@
 
 Como Trabajo de Fin de Grado se creó una aplicación (TraPling) para dispositivos móviles (inicialmente Android) de planificación de viajes, gestión de estos durante su realización, organización de recuerdos y herramientas para viajeros.
 
-La aplicación se desarrolló con Flutter y utilizando algunos servicios de Firebase (Authentication, Firestore y Cloud Storage), Google Maps Platform, algunas API de OpenWeather y WorldTimeAPI.
+La aplicación se desarrolló con Flutter y utilizando algunos servicios de Firebase (Authentication, Firestore y Cloud Storage), Google Maps Platform y algunas API de OpenWeather y WorldTimeAPI.
