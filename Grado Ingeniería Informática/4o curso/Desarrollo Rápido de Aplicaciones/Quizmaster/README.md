@@ -10,7 +10,7 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-En este trabajo se desarrolló una aplicación web de preguntas y respuestas, denominada [Quizmaster](https://mariagalgon.github.io/trivial/#/), utilizando Flutter. Las funciones que puede realizar un usuario son:
+En este trabajo se desarrolló una aplicación web de preguntas y respuestas, denominada Quizmaster, utilizando Flutter. Las funciones que puede realizar un usuario son:
 - Registrarse o iniciar sesión.
 
 ![Login](img/login.png)
